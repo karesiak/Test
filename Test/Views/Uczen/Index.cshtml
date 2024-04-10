@@ -1,0 +1,31 @@
+﻿@model List<Test.Models.Uczen>
+<a href="@Url.Action("Form")">Zobacz listę wynajętych magazynów</a>
+<h1>Lista Ocen</h1>
+<table class="table">
+    <thead>
+        <tr>
+        <th>ID</th>
+        <th>Imie</th>
+        <th>Data</th>
+        <th>Ocena</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach(var uczen in Model)
+        {
+           <tr>
+                <th>@uczen.Id</th>
+                <th>@uczen.Name</th>
+                <th>@uczen.Data</th>
+                <th>@uczen.Ocena</th>
+           </tr>
+            
+        }
+    </tbody>
+
+
+</table>
+
+
+
+

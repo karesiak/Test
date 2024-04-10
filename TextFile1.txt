@@ -1,0 +1,3 @@
+Napisz Aplikace mvc
+formularz z Id studenta(ma miec 4 znaki) nie moga sie powtarzac, imie, ocena(zakres 2-5), data
+lista tych danych
